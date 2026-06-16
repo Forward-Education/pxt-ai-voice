@@ -1,22 +1,17 @@
 {
     "name": "fwd-ai-voice",
-    "version": "0.0.1",
-    "description": "Forward Education's AI Vision extension, micro:bit V2 only.",
+    "version": "1.0.0",
+    "description": "Forward Education's AI Voice kit extension, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac",
-        "radio": "*",
-        "microphone": "*"
+        "fwd-ai-voice": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice#v1.1.1"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md",
-        "constants.ts",
-        "voiceRecognition.ts"
+        "README.md"
     ],
-    "testFiles": ["test.ts"],
+    "testFiles": [
+        "tests/test.ts"
+    ],
     "targetVersions": {
         "target": "6.0.15",
         "targetId": "microbit"
