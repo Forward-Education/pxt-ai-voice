@@ -1,6 +1,6 @@
 {
     "name": "fwd-voice-ai-kit",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Forward Education's Voice AI Kit extension, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
