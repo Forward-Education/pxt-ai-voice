@@ -4,7 +4,7 @@
     "description": "Forward Education's Voice AI Kit extension, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
-        "fwd-ai-voice": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice#v1.1.3"
+        "fwd-ai-voice": "github:Forward-Education/pxt-fwd-modules/fwd-ai-voice#fd158da84e5dd9d5ff50500b5b825080021c91c1"
     },
     "files": [
         "README.md",
