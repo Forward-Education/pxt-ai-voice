@@ -30,7 +30,7 @@ input.onButtonPressed(Button.B, function () {
 })
 fwdAiVoice.init()
 fwdAiVoice.setVolume(4)
-fwdAiVoice.setMuteMode(fwdAiVoice.MUTE.OFF)
+fwdAiVoice.setMuteMode(fwdEnums.OnOff.Off)
 fwdAiVoice.setWakeTime(20)
 basic.forever(function () {
     fwdAiVoice.getCMDID()
@@ -65,7 +65,7 @@ Further details can be found on the [DFRobot wiki](https://wiki.dfrobot.com/sen0
 ```blocks
 fwdAiVoice.init()
 fwdAiVoice.setVolume(4)
-fwdAiVoice.setMuteMode(fwdAiVoice.MUTE.OFF)
+fwdAiVoice.setMuteMode(fwdEnums.OnOff.Off)
 fwdAiVoice.setWakeTime(20)
 music.setVolume(40)
 basic.forever(function () {
